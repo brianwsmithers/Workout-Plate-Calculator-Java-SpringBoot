@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weight Plate Calculator</title>
+    <!DOCTYPE html>
+
+    <!-- Add styling -->
+    <head>
+        <link rel="stylesheet" href ="weightPlateStyle.css">
+    </head>
+
+    <!-- Header -->
+    <h1 class="h2"> Weight Plate Calculator</h1>
+    <p class="p1"> Enter the amount of weight that you want to lift and press <b>Calculate</b>. This weight plate <br>
+        calculator will tell you the number of plates to put on each side of your weight lifting bar.</p>
+
+
+    <!-- Form -->
+    <form>
+        <label for="weight">Weight</label><br>
+        <input type="text" id="weight" name="weight"><br>
+
+        <label for="fourtyFivePounds">45 lbs</label><br>
+        <input type="text" id="fourtyFivePounds" name="fourtyFivePounds" value="" readonly><br> <!-- does this extra <br> do anything?? -->
+
+        <label for="twentyFivePounds">25 lbs</label><br>
+        <input type="text" id="twentyFivePounds" name="twentyFivePounds" value="" readonly><br>
+
+        <label for="tenPounds">10 lbs</label><br>
+        <input type="text" id="tenPounds" name="tenPounds" value="" readonly><br>
+
+        <label for="fivePounds">5 lbs</label><br>
+            <input type="text" id="fivePounds" name="fivePounds" value="" readonly><br>
+
+            <label for="twoAndOneHalfPounds">2.5 lbs</label><br>
+                <input type="text" id="twoAndOneHalfPounds" name="twoAndOneHalfPounds" value="" readonly><br>
+
+                <p>
+                    <input type="button" onclick="calculateWeights()" value="Calculate"><br>
+                </p>
+    </form>
+
+    <script src="CalculationScript.js">
+
+    </script>
+</html>
+</head>
+<body>
+
+</body>
+</html>

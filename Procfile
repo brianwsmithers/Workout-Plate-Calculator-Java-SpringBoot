@@ -1,0 +1,1 @@
+web: java -jar Workout Plate Calculator Java SpringBoot\out\artifacts\Workout_Plate_Calculator_jar\Workout Plate Calculator.jar
